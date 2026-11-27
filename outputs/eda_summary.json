@@ -1,0 +1,30 @@
+{
+  "dataset_source": "GonzaloA/fake_news (ISOT-derived online news corpus)",
+  "label_mapping": {
+    "0": "Credible",
+    "1": "Misleading"
+  },
+  "raw_rows": 40587,
+  "missing_before_cleaning": {
+    "title": 0,
+    "text": 0,
+    "label": 0
+  },
+  "short_or_empty_removed": 343,
+  "duplicates_removed": 137,
+  "clean_rows": 40107,
+  "modeling_rows": 18000,
+  "class_balance": {
+    "Credible (0)": 9740,
+    "Misleading (1)": 8260
+  },
+  "avg_word_count": {
+    "Credible (0)": 399.4,
+    "Misleading (1)": 436.7
+  },
+  "split_sizes": {
+    "train": 12600,
+    "val": 2700,
+    "test": 2700
+  }
+}
