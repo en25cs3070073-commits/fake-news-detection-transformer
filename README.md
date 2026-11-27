@@ -75,7 +75,7 @@ fake_news_detection_transformer/
 
 ### Launch the Interactive Web Demo
 ```powershell
-.\run_demo.bat
+http://localhost:8501
 ```
 *(Or run directly without scripts: `.\.venv\Scripts\python.exe -m streamlit run app.py`)*
 
